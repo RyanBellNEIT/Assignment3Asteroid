@@ -45,7 +45,7 @@ app.get("/getGames", function(req,res){
     })
 })
 
-app.use(express.static(__dirname+"/pages"));
+app.use(express.static(__dirname+"/AsteroidAvoidance"));
 app.listen(3000, function(){
     console.log(`Running on port ${port}`)
 })
